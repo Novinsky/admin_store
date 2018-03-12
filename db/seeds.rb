@@ -1,6 +1,6 @@
-# Criando nossos Users --- OBS: Depois que adicionarmos o devise precisamos incluir o email e senha dos users
-User.create name: 'Rodrigo', status: :active, kind: :salesman
-User.create name: 'Renan', status: :active, kind: :manager
+User.create name: 'Rodrigo', status: :active, kind: :salesman, email: 'salesman@teste.com', password: 123456
+User.create name: 'Marcle', status: :active, kind: :salesman, email: 'salesman2@teste.com', password: 123456
+User.create name: 'Renan', status: :active, kind: :manager, email: 'renan@code.com', password: 123456
 
 # Criando alguns produtos de exemplo
 Product.create name: 'Smartphone', description:'Um smartphone novo ...', status: :active
