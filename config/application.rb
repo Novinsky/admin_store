@@ -12,6 +12,8 @@ require "action_cable/engine"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
+ENV['RAILS_ADMIN_THEME'] = 'rollincode'
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
